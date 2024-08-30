@@ -3,7 +3,7 @@ package br.com.farchettiensis.marombada;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Atleta extends GenericUsuario {
+public class Atleta extends Usuario {
     private double altura;
     private double peso;
     private String matricula;

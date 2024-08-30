@@ -1,11 +1,11 @@
 package br.com.farchettiensis.marombada;
 
-public abstract class GenericUsuario {
+public abstract class Usuario {
     private String nome;
     private int idade;
     boolean ativo;
 
-    public GenericUsuario(String nome, int idade, boolean ativo) {
+    public Usuario(String nome, int idade, boolean ativo) {
         this.nome = nome;
         this.idade = idade;
         this.ativo = true;
